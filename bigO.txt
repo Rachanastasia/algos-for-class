@@ -1,0 +1,23 @@
+1. The first example where you yell out and wait for a response happens in constant time 
+(O(1)) because it takes the same amount of time no matter how mant people there are. 
+The second example takes linear time (O(N)) because the worst-case-scenario takes longer when there
+are more people in the group.
+
+2. The algorithm happens in constant time (O(1)) because it takes the same amount of time wether
+you input 2 or 999999. It is just one operation. 
+
+3. This happens in O(n^2) because, in the worst case scenario, the func would have to cycle through
+n items in one array for each of the n items in the other, making it n * n complexity.
+
+4. The complexity of this function is linear (O(N)) because it only preforms one operation on each
+element of the array. 
+
+5. The complexity is linear because it grows in relation to the size of the array, but not exponentailly.
+
+6. The complexity is O(n^2) because, in the worst case scenario, the func would have to cycle through
+n items in one array for each of the n items in the other, making it n * n complexity.
+
+7. The algorithm takes in a number and returns an array of numbers based on iteration. 
+This is O(N) complexity because it 
+
+

@@ -1,4 +1,5 @@
 //Counting Sheep
+//O(N)
 function countSheep(num) {
 
     if (num <= 0) {
@@ -11,6 +12,7 @@ function countSheep(num) {
 
 
 //Power Calculator
+//O(N)
 function powerCalculator(base, exp) {
 
     if (exp < 0) {
@@ -26,7 +28,7 @@ function powerCalculator(base, exp) {
 }
 
 //Reverse String
-
+//O(N)
 function reverseString(str) {
 
     if (str === '') {
@@ -41,6 +43,7 @@ function reverseString(str) {
 
 
 //Nth Triangular
+//O(N)
 function nthTriangular(num) {
 
     if (num === 1) {
