@@ -66,6 +66,7 @@ function stringSplitter(str, sep) {
 }
 
 //Fibonacci
+//O(2^n)
 function fib(n) {
 
     if (n === 0) {
@@ -81,6 +82,7 @@ function fib(n) {
 }
 
 //Factorial
+//O(N^2)
 function factorial(n) {
 
     if (n === 1) {
@@ -93,6 +95,7 @@ function factorial(n) {
 
 
 //Find a way out of the maze
+//O(2^n)
 function solveMaze(maze, col = 0, row = 0, path = []) {
 
 
